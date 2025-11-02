@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3030334156" Type="Event" GUID="{8BBFE927-DD4B-4348-9456-D0B5E6C2FCF2}" Language="SFX" Hash="{4ABA8CD3-2E5E-0F0A-FAA4-6E7B315FB63B}">
+			<ObjectPath>PlayHeartbeats</ObjectPath>
+			<ShortName>PlayHeartbeats</ShortName>
+			<Path>Event/PlayHeartbeats.bnk</Path>
+			<Media>
+				<File Id="566475053" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>heartbeat.wav</ShortName>
+					<Path>Media/566475053.wem</Path>
+					<CachePath>SFX/heartbeat_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3030334156" Name="PlayHeartbeats" ObjectPath="\Events\Default Work Unit\SoundEffects\PlayHeartbeats" GUID="{8BBFE927-DD4B-4348-9456-D0B5E6C2FCF2}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="566475053"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{CD55E4AD-9E15-0A45-CBE0-7F760F406573}</FileHash>
+</SoundBanksInfo>

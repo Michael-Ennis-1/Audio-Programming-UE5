@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3030334156",
+    "Type": "Event",
+    "GUID": "{8BBFE927-DD4B-4348-9456-D0B5E6C2FCF2}",
+    "Language": "SFX",
+    "Hash": "{4ABA8CD3-2E5E-0F0A-FAA4-6E7B315FB63B}",
+    "ObjectPath": "PlayHeartbeats",
+    "ShortName": "PlayHeartbeats",
+    "Path": "Event/PlayHeartbeats.bnk",
+    "Media": [
+     {
+      "Id": "566475053",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "heartbeat.wav",
+      "Path": "Media/566475053.wem",
+      "CachePath": "SFX/heartbeat_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3030334156",
+      "Name": "PlayHeartbeats",
+      "ObjectPath": "\\Events\\Default Work Unit\\SoundEffects\\PlayHeartbeats",
+      "GUID": "{8BBFE927-DD4B-4348-9456-D0B5E6C2FCF2}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "566475053"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{35761938-1D21-7768-9C0C-9B3B8BDB2F46}"
+ }
+}

@@ -1,0 +1,1267 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "RootPaths": {
+   "ProjectRoot": "../..",
+   "SourceFilesRoot": "../../.cache/Windows",
+   "SoundBanksRoot": ".",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "."
+  },
+  "DialogueEvents": [],
+  "SoundBanks": [
+   {
+    "Id": "182906760",
+    "Type": "Event",
+    "GUID": "{7697D898-A9EB-46F3-8BC6-4DE680D4D0CE}",
+    "Language": "SFX",
+    "Hash": "{D94B7965-4A6C-2FE4-FE26-186305EEC375}",
+    "ObjectPath": "PlayExplosion",
+    "ShortName": "PlayExplosion",
+    "Path": "Event/PlayExplosion.bnk",
+    "Media": [
+     {
+      "Id": "126313435",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ExplosionStereo.wav",
+      "Path": "Media/126313435.wem",
+      "CachePath": "SFX/ExplosionStereo_8E324C96.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "182906760",
+      "Name": "PlayExplosion",
+      "ObjectPath": "\\Events\\Default Work Unit\\SoundEffects\\PlayExplosion",
+      "GUID": "{7697D898-A9EB-46F3-8BC6-4DE680D4D0CE}",
+      "MaxAttenuation": "1000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.79624426",
+      "DurationMax": "1.1299689",
+      "MediaRefs": [
+       {
+        "Id": "126313435"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3237550251",
+      "Name": "CameraDirection",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\CameraDirection",
+      "GUID": "{C1CC14D2-C77C-4899-B2B7-CFFC6A779A05}"
+     }
+    ]
+   },
+   {
+    "Id": "585150322",
+    "Type": "Bus",
+    "GUID": "{CB4DF897-C74D-4E9E-9974-FED2837977CB}",
+    "Language": "SFX",
+    "Hash": "{5B33FF29-DD9A-F75F-0485-9E6CD72B5D9B}",
+    "ObjectPath": "ReverbAuxillaryBus",
+    "ShortName": "ReverbAuxillaryBus",
+    "Path": "Bus/ReverbAuxillaryBus.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "1990128658",
+       "Name": "Room_Medium",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Medium",
+       "GUID": "{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "585150322",
+      "Name": "ReverbAuxillaryBus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\ReverbAuxillaryBus",
+      "GUID": "{CB4DF897-C74D-4E9E-9974-FED2837977CB}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1990128658"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "Id": "995613051",
+    "Type": "Event",
+    "GUID": "{5E931EA9-AF1E-427D-A33F-B3236DCC79C3}",
+    "Language": "SFX",
+    "Hash": "{5FE3EC03-8BEA-7861-1370-9A71DE5F246B}",
+    "ObjectPath": "PlayBulletPassby",
+    "ShortName": "PlayBulletPassby",
+    "Path": "Event/PlayBulletPassby.bnk",
+    "Media": [
+     {
+      "Id": "131165634",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BulletPassby2.wav",
+      "Path": "Media/131165634.wem",
+      "CachePath": "SFX/BulletPassby2_818F3B66.wem"
+     },
+     {
+      "Id": "630476986",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BulletPassby1.wav",
+      "Path": "Media/630476986.wem",
+      "CachePath": "SFX/BulletPassby1_818F3B66.wem"
+     },
+     {
+      "Id": "822178653",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BulletPassby4.wav",
+      "Path": "Media/822178653.wem",
+      "CachePath": "SFX/BulletPassby4_818F3B66.wem"
+     },
+     {
+      "Id": "861769943",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BulletPassby3.wav",
+      "Path": "Media/861769943.wem",
+      "CachePath": "SFX/BulletPassby3_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "995613051",
+      "Name": "PlayBulletPassby",
+      "ObjectPath": "\\Events\\Default Work Unit\\SoundEffects\\PlayBulletPassby",
+      "GUID": "{5E931EA9-AF1E-427D-A33F-B3236DCC79C3}",
+      "MaxAttenuation": "550",
+      "DurationType": "OneShot",
+      "DurationMin": "0.18794513",
+      "DurationMax": "0.49139583",
+      "MediaRefs": [
+       {
+        "Id": "131165634"
+       },
+       {
+        "Id": "630476986"
+       },
+       {
+        "Id": "822178653"
+       },
+       {
+        "Id": "861769943"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "1088348632",
+    "Type": "Event",
+    "GUID": "{11EFE650-9670-42D6-97FA-95E7D171C8F2}",
+    "Language": "SFX",
+    "Hash": "{C9783713-80C5-C3D0-E2CD-308CF9F38383}",
+    "ObjectPath": "PlayFootsteps",
+    "ShortName": "PlayFootsteps",
+    "Path": "Event/PlayFootsteps.bnk",
+    "Media": [
+     {
+      "Id": "238955772",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Footstep2Metal.wav",
+      "Path": "Media/238955772.wem",
+      "CachePath": "SFX/Footstep2Metal_818F3B66.wem"
+     },
+     {
+      "Id": "429420079",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Footstep3Water.wav",
+      "Path": "Media/429420079.wem",
+      "CachePath": "SFX/Footstep3Water_818F3B66.wem"
+     },
+     {
+      "Id": "541099542",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Footstep1Water.wav",
+      "Path": "Media/541099542.wem",
+      "CachePath": "SFX/Footstep1Water_818F3B66.wem"
+     },
+     {
+      "Id": "541635670",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Footstep1Metal.wav",
+      "Path": "Media/541635670.wem",
+      "CachePath": "SFX/Footstep1Metal_818F3B66.wem"
+     },
+     {
+      "Id": "611863334",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Footstep2Grass.wav",
+      "Path": "Media/611863334.wem",
+      "CachePath": "SFX/Footstep2Grass_818F3B66.wem"
+     },
+     {
+      "Id": "635343868",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Footstep2Water.wav",
+      "Path": "Media/635343868.wem",
+      "CachePath": "SFX/Footstep2Water_818F3B66.wem"
+     },
+     {
+      "Id": "644720478",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Footstep1Grass.wav",
+      "Path": "Media/644720478.wem",
+      "CachePath": "SFX/Footstep1Grass_818F3B66.wem"
+     },
+     {
+      "Id": "779536952",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Footstep3Metal.wav",
+      "Path": "Media/779536952.wem",
+      "CachePath": "SFX/Footstep3Metal_818F3B66.wem"
+     },
+     {
+      "Id": "880258513",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Footstep3Grass.wav",
+      "Path": "Media/880258513.wem",
+      "CachePath": "SFX/Footstep3Grass_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1088348632",
+      "Name": "PlayFootsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\SoundEffects\\PlayFootsteps",
+      "GUID": "{11EFE650-9670-42D6-97FA-95E7D171C8F2}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.2500571",
+      "DurationMax": "1.5126395",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2470013375",
+         "Id": "1629235638",
+         "GUID": "{3BE7B528-1199-41E4-9D33-2C0B6DF53C60}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "238955772"
+         },
+         {
+          "Id": "541635670"
+         },
+         {
+          "Id": "779536952"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2470013375",
+         "Id": "3466136041",
+         "GUID": "{D3A66A90-821F-42E4-96F9-00485382B1F1}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "611863334"
+         },
+         {
+          "Id": "644720478"
+         },
+         {
+          "Id": "880258513"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2470013375",
+         "Id": "1200189234",
+         "GUID": "{40070A92-7E58-4F78-B6F6-0B3E57EFAB5D}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "429420079"
+         },
+         {
+          "Id": "541099542"
+         },
+         {
+          "Id": "635343868"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2470013375",
+      "Name": "FootstepsSwitchGroup",
+      "ObjectPath": "\\Switches\\Default Work Unit\\FootstepsSwitchGroup",
+      "GUID": "{20DC6370-37A7-46DC-B665-8C8C4FF76E58}",
+      "Switches": [
+       {
+        "Id": "1200189234",
+        "Name": "WaterSwitch",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FootstepsSwitchGroup\\WaterSwitch",
+        "GUID": "{40070A92-7E58-4F78-B6F6-0B3E57EFAB5D}"
+       },
+       {
+        "Id": "1629235638",
+        "Name": "MetalSwitch",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FootstepsSwitchGroup\\MetalSwitch",
+        "GUID": "{3BE7B528-1199-41E4-9D33-2C0B6DF53C60}"
+       },
+       {
+        "Id": "3466136041",
+        "Name": "GrassSwitch",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FootstepsSwitchGroup\\GrassSwitch",
+        "GUID": "{D3A66A90-821F-42E4-96F9-00485382B1F1}"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "1355168291",
+    "Type": "User",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "{78D56D8F-7C63-207E-5589-8028E879A4F9}",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "1990128658",
+       "Name": "Room_Medium",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Medium",
+       "GUID": "{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ],
+     "AudioDevices": [
+      {
+       "Id": "2317455096",
+       "Name": "No_Output",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
+       "GUID": "{78E175C2-554A-42C3-B180-CA29DED39A66}",
+       "LibName": "No Output",
+       "LibId": "11862023"
+      },
+      {
+       "Id": "3859886410",
+       "Name": "System",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
+       "GUID": "{97DB15DC-1484-4684-9D05-838B4010AC7F}",
+       "LibName": "System",
+       "LibId": "11403271"
+      }
+     ]
+    },
+    "Busses": [
+     {
+      "Id": "761837322",
+      "Name": "AffectedByHeartbeatAudioBus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\AffectedByHeartbeatAudioBus",
+      "GUID": "{82A6CA88-DF91-4C72-8930-FDDE526A586B}"
+     },
+     {
+      "Id": "1316478143",
+      "Name": "HeartbeatAudioBus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\HeartbeatAudioBus",
+      "GUID": "{580A8381-4C94-4FB9-8CDC-545F109A0C18}"
+     },
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "585150322",
+      "Name": "ReverbAuxillaryBus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\ReverbAuxillaryBus",
+      "GUID": "{CB4DF897-C74D-4E9E-9974-FED2837977CB}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1990128658"
+        }
+       ]
+      }
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "255912898",
+      "Name": "DynamicEnemyAmountVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\DynamicEnemyAmountVolume",
+      "GUID": "{0A02C79E-164F-4934-88F5-8D80805F0FB8}"
+     },
+     {
+      "Id": "1789676941",
+      "Name": "MusicMuffle",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\MusicMuffle",
+      "GUID": "{89A1870C-D397-4A0B-AFC5-BE524A06B849}"
+     },
+     {
+      "Id": "2346531308",
+      "Name": "MusicVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\MusicVolume",
+      "GUID": "{BEEF7FC8-87EB-4AA6-B809-8CB2D7FBA2EB}"
+     },
+     {
+      "Id": "2676555662",
+      "Name": "HasBeenDamaged",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\HasBeenDamaged",
+      "GUID": "{5D690D85-3DE9-43CB-9D2B-811EDC8BFE38}"
+     },
+     {
+      "Id": "3237550251",
+      "Name": "CameraDirection",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\CameraDirection",
+      "GUID": "{C1CC14D2-C77C-4899-B2B7-CFFC6A779A05}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3060884600",
+      "Name": "PlayerChasedStateGroup",
+      "ObjectPath": "\\States\\Default Work Unit\\PlayerChasedStateGroup",
+      "GUID": "{EE672E92-347B-4545-8120-1C668D97E78D}",
+      "States": [
+       {
+        "Id": "493461511",
+        "Name": "Chased",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerChasedStateGroup\\Chased",
+        "GUID": "{F27B355F-CFC9-4BA7-8C85-D4B70DE44E5C}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerChasedStateGroup\\None",
+        "GUID": "{A5447658-B540-4BC5-B1E4-59D200CF4E42}"
+       },
+       {
+        "Id": "938058686",
+        "Name": "Safe",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerChasedStateGroup\\Safe",
+        "GUID": "{F90595E5-53B8-40C0-AF23-51CB4F9132C4}"
+       },
+       {
+        "Id": "3621873013",
+        "Name": "Hidden",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerChasedStateGroup\\Hidden",
+        "GUID": "{29A4E8D1-97D7-4D2F-B42B-A5E175D58A35}"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2048498592",
+      "Name": "BulletImpactSwitchGroup",
+      "ObjectPath": "\\Switches\\Default Work Unit\\BulletImpactSwitchGroup",
+      "GUID": "{9A41939D-D05B-43DC-9639-30138F889E2E}",
+      "Switches": [
+       {
+        "Id": "1791853674",
+        "Name": "ActorImpact",
+        "ObjectPath": "\\Switches\\Default Work Unit\\BulletImpactSwitchGroup\\ActorImpact",
+        "GUID": "{7CD2D981-CCA7-499B-A96C-DBB91EBF70A2}"
+       },
+       {
+        "Id": "3121599344",
+        "Name": "MetalImpact",
+        "ObjectPath": "\\Switches\\Default Work Unit\\BulletImpactSwitchGroup\\MetalImpact",
+        "GUID": "{B00E73F9-8E0B-48E6-8410-01165B821C01}"
+       }
+      ]
+     },
+     {
+      "Id": "2470013375",
+      "Name": "FootstepsSwitchGroup",
+      "ObjectPath": "\\Switches\\Default Work Unit\\FootstepsSwitchGroup",
+      "GUID": "{20DC6370-37A7-46DC-B665-8C8C4FF76E58}",
+      "Switches": [
+       {
+        "Id": "1200189234",
+        "Name": "WaterSwitch",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FootstepsSwitchGroup\\WaterSwitch",
+        "GUID": "{40070A92-7E58-4F78-B6F6-0B3E57EFAB5D}"
+       },
+       {
+        "Id": "1629235638",
+        "Name": "MetalSwitch",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FootstepsSwitchGroup\\MetalSwitch",
+        "GUID": "{3BE7B528-1199-41E4-9D33-2C0B6DF53C60}"
+       },
+       {
+        "Id": "3466136041",
+        "Name": "GrassSwitch",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FootstepsSwitchGroup\\GrassSwitch",
+        "GUID": "{D3A66A90-821F-42E4-96F9-00485382B1F1}"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "1377933095",
+    "Type": "Event",
+    "GUID": "{EDA2D3EF-9B78-4B3E-8607-E6835CE32334}",
+    "Language": "SFX",
+    "Hash": "{C2B8982B-4F78-9B17-1A92-6FE6FF2A2398}",
+    "ObjectPath": "BeginChaseMusic",
+    "ShortName": "BeginChaseMusic",
+    "Path": "Event/BeginChaseMusic.bnk",
+    "Media": [
+     {
+      "Id": "8511986",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BassEdited.wav",
+      "Path": "Media/8511986.wem",
+      "CachePath": "SFX/BassEdited_56CEF360.wem"
+     },
+     {
+      "Id": "279993006",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PianoEdited.wav",
+      "Path": "Media/279993006.wem",
+      "CachePath": "SFX/PianoEdited_56CEF360.wem"
+     },
+     {
+      "Id": "342025362",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "TimbalesEdited.wav",
+      "Path": "Media/342025362.wem",
+      "CachePath": "SFX/TimbalesEdited_56CEF360.wem"
+     },
+     {
+      "Id": "449572488",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "TheFastTrackEdited.wav",
+      "Path": "Media/449572488.wem",
+      "CachePath": "SFX/TheFastTrackEdited_56CEF360.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1377933095",
+      "Name": "BeginChaseMusic",
+      "ObjectPath": "\\Events\\Default Work Unit\\DynamicMusic\\BeginChaseMusic",
+      "GUID": "{EDA2D3EF-9B78-4B3E-8607-E6835CE32334}",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3060884600",
+         "Id": "493461511",
+         "GUID": "{F27B355F-CFC9-4BA7-8C85-D4B70DE44E5C}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "8511986"
+         },
+         {
+          "Id": "279993006"
+         },
+         {
+          "Id": "342025362"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3060884600",
+         "Id": "3621873013",
+         "GUID": "{29A4E8D1-97D7-4D2F-B42B-A5E175D58A35}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "279993006"
+         },
+         {
+          "Id": "342025362"
+         },
+         {
+          "Id": "449572488"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3060884600",
+         "Id": "938058686",
+         "GUID": "{F90595E5-53B8-40C0-AF23-51CB4F9132C4}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "279993006"
+         },
+         {
+          "Id": "342025362"
+         },
+         {
+          "Id": "449572488"
+         }
+        ]
+       }
+      ],
+      "ActionSetState": [
+       {
+        "GroupId": "3060884600",
+        "Id": "493461511",
+        "Name": "Chased",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerChasedStateGroup\\Chased",
+        "GUID": "{F27B355F-CFC9-4BA7-8C85-D4B70DE44E5C}"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "255912898",
+      "Name": "DynamicEnemyAmountVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\DynamicEnemyAmountVolume",
+      "GUID": "{0A02C79E-164F-4934-88F5-8D80805F0FB8}"
+     },
+     {
+      "Id": "1789676941",
+      "Name": "MusicMuffle",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\MusicMuffle",
+      "GUID": "{89A1870C-D397-4A0B-AFC5-BE524A06B849}"
+     },
+     {
+      "Id": "2346531308",
+      "Name": "MusicVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\MusicVolume",
+      "GUID": "{BEEF7FC8-87EB-4AA6-B809-8CB2D7FBA2EB}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3060884600",
+      "Name": "PlayerChasedStateGroup",
+      "ObjectPath": "\\States\\Default Work Unit\\PlayerChasedStateGroup",
+      "GUID": "{EE672E92-347B-4545-8120-1C668D97E78D}",
+      "States": [
+       {
+        "Id": "493461511",
+        "Name": "Chased",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerChasedStateGroup\\Chased",
+        "GUID": "{F27B355F-CFC9-4BA7-8C85-D4B70DE44E5C}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerChasedStateGroup\\None",
+        "GUID": "{A5447658-B540-4BC5-B1E4-59D200CF4E42}"
+       },
+       {
+        "Id": "938058686",
+        "Name": "Safe",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerChasedStateGroup\\Safe",
+        "GUID": "{F90595E5-53B8-40C0-AF23-51CB4F9132C4}"
+       },
+       {
+        "Id": "3621873013",
+        "Name": "Hidden",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerChasedStateGroup\\Hidden",
+        "GUID": "{29A4E8D1-97D7-4D2F-B42B-A5E175D58A35}"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "2817782225",
+    "Type": "Event",
+    "GUID": "{A6B2086B-256A-4ED6-B4F2-527DFDFA72DC}",
+    "Language": "SFX",
+    "Hash": "{0074660D-943E-226C-E674-3A71AE06D98D}",
+    "ObjectPath": "PlayBulletImpact",
+    "ShortName": "PlayBulletImpact",
+    "Path": "Event/PlayBulletImpact.bnk",
+    "Media": [
+     {
+      "Id": "196386843",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BulletImpactMetal1.wav",
+      "Path": "Media/196386843.wem",
+      "CachePath": "SFX/BulletImpactMetal1_818F3B66.wem"
+     },
+     {
+      "Id": "235542516",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BulletImpactBody1.wav",
+      "Path": "Media/235542516.wem",
+      "CachePath": "SFX/BulletImpactBody1_818F3B66.wem"
+     },
+     {
+      "Id": "354532968",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BulletImpactBody2.wav",
+      "Path": "Media/354532968.wem",
+      "CachePath": "SFX/BulletImpactBody2_818F3B66.wem"
+     },
+     {
+      "Id": "792091043",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BulletImpactMetal2.wav",
+      "Path": "Media/792091043.wem",
+      "CachePath": "SFX/BulletImpactMetal2_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2817782225",
+      "Name": "PlayBulletImpact",
+      "ObjectPath": "\\Events\\Default Work Unit\\SoundEffects\\PlayBulletImpact",
+      "GUID": "{A6B2086B-256A-4ED6-B4F2-527DFDFA72DC}",
+      "MaxAttenuation": "1000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.39499173",
+      "DurationMax": "0.7433523",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2048498592",
+         "Id": "1791853674",
+         "GUID": "{7CD2D981-CCA7-499B-A96C-DBB91EBF70A2}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "235542516"
+         },
+         {
+          "Id": "354532968"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2048498592",
+         "Id": "3121599344",
+         "GUID": "{B00E73F9-8E0B-48E6-8410-01165B821C01}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "196386843"
+         },
+         {
+          "Id": "792091043"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2048498592",
+      "Name": "BulletImpactSwitchGroup",
+      "ObjectPath": "\\Switches\\Default Work Unit\\BulletImpactSwitchGroup",
+      "GUID": "{9A41939D-D05B-43DC-9639-30138F889E2E}",
+      "Switches": [
+       {
+        "Id": "1791853674",
+        "Name": "ActorImpact",
+        "ObjectPath": "\\Switches\\Default Work Unit\\BulletImpactSwitchGroup\\ActorImpact",
+        "GUID": "{7CD2D981-CCA7-499B-A96C-DBB91EBF70A2}"
+       },
+       {
+        "Id": "3121599344",
+        "Name": "MetalImpact",
+        "ObjectPath": "\\Switches\\Default Work Unit\\BulletImpactSwitchGroup\\MetalImpact",
+        "GUID": "{B00E73F9-8E0B-48E6-8410-01165B821C01}"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "3030334156",
+    "Type": "Event",
+    "GUID": "{8BBFE927-DD4B-4348-9456-D0B5E6C2FCF2}",
+    "Language": "SFX",
+    "Hash": "{4ABA8CD3-2E5E-0F0A-FAA4-6E7B315FB63B}",
+    "ObjectPath": "PlayHeartbeats",
+    "ShortName": "PlayHeartbeats",
+    "Path": "Event/PlayHeartbeats.bnk",
+    "Media": [
+     {
+      "Id": "566475053",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "heartbeat.wav",
+      "Path": "Media/566475053.wem",
+      "CachePath": "SFX/heartbeat_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3030334156",
+      "Name": "PlayHeartbeats",
+      "ObjectPath": "\\Events\\Default Work Unit\\SoundEffects\\PlayHeartbeats",
+      "GUID": "{8BBFE927-DD4B-4348-9456-D0B5E6C2FCF2}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "566475053"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "3531571417",
+    "Type": "Event",
+    "GUID": "{09EEC311-8EA0-41D7-848B-C3FD401D13D0}",
+    "Language": "SFX",
+    "Hash": "{99EA3602-51A8-AFBA-94CD-B8DDC6435C09}",
+    "ObjectPath": "SetChased",
+    "ShortName": "SetChased",
+    "Path": "Event/SetChased.bnk",
+    "Events": [
+     {
+      "Id": "3531571417",
+      "Name": "SetChased",
+      "ObjectPath": "\\Events\\Default Work Unit\\DynamicMusic\\SetChased",
+      "GUID": "{09EEC311-8EA0-41D7-848B-C3FD401D13D0}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "3060884600",
+        "Id": "493461511",
+        "Name": "Chased",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerChasedStateGroup\\Chased",
+        "GUID": "{F27B355F-CFC9-4BA7-8C85-D4B70DE44E5C}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3060884600",
+      "Name": "PlayerChasedStateGroup",
+      "ObjectPath": "\\States\\Default Work Unit\\PlayerChasedStateGroup",
+      "GUID": "{EE672E92-347B-4545-8120-1C668D97E78D}",
+      "States": [
+       {
+        "Id": "493461511",
+        "Name": "Chased",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerChasedStateGroup\\Chased",
+        "GUID": "{F27B355F-CFC9-4BA7-8C85-D4B70DE44E5C}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerChasedStateGroup\\None",
+        "GUID": "{A5447658-B540-4BC5-B1E4-59D200CF4E42}"
+       },
+       {
+        "Id": "938058686",
+        "Name": "Safe",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerChasedStateGroup\\Safe",
+        "GUID": "{F90595E5-53B8-40C0-AF23-51CB4F9132C4}"
+       },
+       {
+        "Id": "3621873013",
+        "Name": "Hidden",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerChasedStateGroup\\Hidden",
+        "GUID": "{29A4E8D1-97D7-4D2F-B42B-A5E175D58A35}"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "3533507663",
+    "Type": "Event",
+    "GUID": "{042604ED-1C3C-478B-AF40-60D9DD0498BD}",
+    "Language": "SFX",
+    "Hash": "{B2B952AA-804F-6A3B-F636-C6008930FF0E}",
+    "ObjectPath": "PlayGunshot",
+    "ShortName": "PlayGunshot",
+    "Path": "Event/PlayGunshot.bnk",
+    "Media": [
+     {
+      "Id": "591637442",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Gunshot3.wav",
+      "Path": "Media/591637442.wem",
+      "CachePath": "SFX/Gunshot3_818F3B66.wem"
+     },
+     {
+      "Id": "607122471",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Gunshot2.wav",
+      "Path": "Media/607122471.wem",
+      "CachePath": "SFX/Gunshot2_818F3B66.wem"
+     },
+     {
+      "Id": "735651581",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Gunshot1.wav",
+      "Path": "Media/735651581.wem",
+      "CachePath": "SFX/Gunshot1_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3533507663",
+      "Name": "PlayGunshot",
+      "ObjectPath": "\\Events\\Default Work Unit\\SoundEffects\\PlayGunshot",
+      "GUID": "{042604ED-1C3C-478B-AF40-60D9DD0498BD}",
+      "MaxAttenuation": "1500",
+      "DurationType": "OneShot",
+      "DurationMin": "0.9054059",
+      "DurationMax": "1.6456093",
+      "MediaRefs": [
+       {
+        "Id": "591637442"
+       },
+       {
+        "Id": "607122471"
+       },
+       {
+        "Id": "735651581"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3237550251",
+      "Name": "CameraDirection",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\CameraDirection",
+      "GUID": "{C1CC14D2-C77C-4899-B2B7-CFFC6A779A05}"
+     }
+    ]
+   },
+   {
+    "Id": "4089554691",
+    "Type": "Event",
+    "GUID": "{75D0B19F-D998-4551-8A37-D9A0F38654B3}",
+    "Language": "SFX",
+    "Hash": "{2FCBA7CF-8CAD-5146-F91A-C6570E494870}",
+    "ObjectPath": "SetHidden",
+    "ShortName": "SetHidden",
+    "Path": "Event/SetHidden.bnk",
+    "Events": [
+     {
+      "Id": "4089554691",
+      "Name": "SetHidden",
+      "ObjectPath": "\\Events\\Default Work Unit\\DynamicMusic\\SetHidden",
+      "GUID": "{75D0B19F-D998-4551-8A37-D9A0F38654B3}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "3060884600",
+        "Id": "3621873013",
+        "Name": "Hidden",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerChasedStateGroup\\Hidden",
+        "GUID": "{29A4E8D1-97D7-4D2F-B42B-A5E175D58A35}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3060884600",
+      "Name": "PlayerChasedStateGroup",
+      "ObjectPath": "\\States\\Default Work Unit\\PlayerChasedStateGroup",
+      "GUID": "{EE672E92-347B-4545-8120-1C668D97E78D}",
+      "States": [
+       {
+        "Id": "493461511",
+        "Name": "Chased",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerChasedStateGroup\\Chased",
+        "GUID": "{F27B355F-CFC9-4BA7-8C85-D4B70DE44E5C}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerChasedStateGroup\\None",
+        "GUID": "{A5447658-B540-4BC5-B1E4-59D200CF4E42}"
+       },
+       {
+        "Id": "938058686",
+        "Name": "Safe",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerChasedStateGroup\\Safe",
+        "GUID": "{F90595E5-53B8-40C0-AF23-51CB4F9132C4}"
+       },
+       {
+        "Id": "3621873013",
+        "Name": "Hidden",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerChasedStateGroup\\Hidden",
+        "GUID": "{29A4E8D1-97D7-4D2F-B42B-A5E175D58A35}"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "4244123813",
+    "Type": "Event",
+    "GUID": "{AD634FDE-E1BB-4FED-ABCF-F7C8744CE6B5}",
+    "Language": "SFX",
+    "Hash": "{B380D154-92A0-31F8-B93A-DA5E522EE053}",
+    "ObjectPath": "BeginHiddenMusic",
+    "ShortName": "BeginHiddenMusic",
+    "Path": "Event/BeginHiddenMusic.bnk",
+    "Media": [
+     {
+      "Id": "8511986",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "BassEdited.wav",
+      "Path": "Media/8511986.wem",
+      "CachePath": "SFX/BassEdited_56CEF360.wem"
+     },
+     {
+      "Id": "279993006",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "PianoEdited.wav",
+      "Path": "Media/279993006.wem",
+      "CachePath": "SFX/PianoEdited_56CEF360.wem"
+     },
+     {
+      "Id": "342025362",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "TimbalesEdited.wav",
+      "Path": "Media/342025362.wem",
+      "CachePath": "SFX/TimbalesEdited_56CEF360.wem"
+     },
+     {
+      "Id": "449572488",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "TheFastTrackEdited.wav",
+      "Path": "Media/449572488.wem",
+      "CachePath": "SFX/TheFastTrackEdited_56CEF360.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4244123813",
+      "Name": "BeginHiddenMusic",
+      "ObjectPath": "\\Events\\Default Work Unit\\DynamicMusic\\BeginHiddenMusic",
+      "GUID": "{AD634FDE-E1BB-4FED-ABCF-F7C8744CE6B5}",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3060884600",
+         "Id": "493461511",
+         "GUID": "{F27B355F-CFC9-4BA7-8C85-D4B70DE44E5C}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "8511986"
+         },
+         {
+          "Id": "279993006"
+         },
+         {
+          "Id": "342025362"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3060884600",
+         "Id": "3621873013",
+         "GUID": "{29A4E8D1-97D7-4D2F-B42B-A5E175D58A35}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "279993006"
+         },
+         {
+          "Id": "342025362"
+         },
+         {
+          "Id": "449572488"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3060884600",
+         "Id": "938058686",
+         "GUID": "{F90595E5-53B8-40C0-AF23-51CB4F9132C4}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "279993006"
+         },
+         {
+          "Id": "342025362"
+         },
+         {
+          "Id": "449572488"
+         }
+        ]
+       }
+      ],
+      "ActionSetState": [
+       {
+        "GroupId": "3060884600",
+        "Id": "3621873013",
+        "Name": "Hidden",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerChasedStateGroup\\Hidden",
+        "GUID": "{29A4E8D1-97D7-4D2F-B42B-A5E175D58A35}"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "255912898",
+      "Name": "DynamicEnemyAmountVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\DynamicEnemyAmountVolume",
+      "GUID": "{0A02C79E-164F-4934-88F5-8D80805F0FB8}"
+     },
+     {
+      "Id": "1789676941",
+      "Name": "MusicMuffle",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\MusicMuffle",
+      "GUID": "{89A1870C-D397-4A0B-AFC5-BE524A06B849}"
+     },
+     {
+      "Id": "2346531308",
+      "Name": "MusicVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\MusicVolume",
+      "GUID": "{BEEF7FC8-87EB-4AA6-B809-8CB2D7FBA2EB}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3060884600",
+      "Name": "PlayerChasedStateGroup",
+      "ObjectPath": "\\States\\Default Work Unit\\PlayerChasedStateGroup",
+      "GUID": "{EE672E92-347B-4545-8120-1C668D97E78D}",
+      "States": [
+       {
+        "Id": "493461511",
+        "Name": "Chased",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerChasedStateGroup\\Chased",
+        "GUID": "{F27B355F-CFC9-4BA7-8C85-D4B70DE44E5C}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerChasedStateGroup\\None",
+        "GUID": "{A5447658-B540-4BC5-B1E4-59D200CF4E42}"
+       },
+       {
+        "Id": "938058686",
+        "Name": "Safe",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerChasedStateGroup\\Safe",
+        "GUID": "{F90595E5-53B8-40C0-AF23-51CB4F9132C4}"
+       },
+       {
+        "Id": "3621873013",
+        "Name": "Hidden",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerChasedStateGroup\\Hidden",
+        "GUID": "{29A4E8D1-97D7-4D2F-B42B-A5E175D58A35}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{02026467-341B-C4E0-9484-190C8ADC2282}"
+ }
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6C36F32B-C9C0-4E20-AEE6-C82CBE441F3B}" SchemaVersion="119">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{6C36F32B-C9C0-4E20-AEE6-C82CBE441F3B}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="CameraDirection" ID="{C1CC14D2-C77C-4899-B2B7-CFFC6A779A05}">
+					<PropertyList>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="2"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="180"/>
+						<Property Name="Min" Type="Real64" Value="-180"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="MusicVolume" ID="{BEEF7FC8-87EB-4AA6-B809-8CB2D7FBA2EB}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="MusicMuffle" ID="{89A1870C-D397-4A0B-AFC5-BE524A06B849}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="DynamicEnemyAmountVolume" ID="{0A02C79E-164F-4934-88F5-8D80805F0FB8}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="HasBeenDamaged" ID="{5D690D85-3DE9-43CB-9D2B-811EDC8BFE38}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

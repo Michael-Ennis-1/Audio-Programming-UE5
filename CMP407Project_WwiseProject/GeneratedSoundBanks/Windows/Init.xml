@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{78D56D8F-7C63-207E-5589-8028E879A4F9}">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="1990128658" Name="Room_Medium" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Medium" GUID="{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{78E175C2-554A-42C3-B180-CA29DED39A66}" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{97DB15DC-1484-4684-9D05-838B4010AC7F}" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="761837322" Name="AffectedByHeartbeatAudioBus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\AffectedByHeartbeatAudioBus" GUID="{82A6CA88-DF91-4C72-8930-FDDE526A586B}"/>
+				<Bus Id="1316478143" Name="HeartbeatAudioBus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\HeartbeatAudioBus" GUID="{580A8381-4C94-4FB9-8CDC-545F109A0C18}"/>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+			</Busses>
+			<AuxBusses>
+				<AuxBus Id="585150322" Name="ReverbAuxillaryBus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\ReverbAuxillaryBus" GUID="{CB4DF897-C74D-4E9E-9974-FED2837977CB}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1990128658"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+			<GameParameters>
+				<GameParameter Id="255912898" Name="DynamicEnemyAmountVolume" ObjectPath="\Game Parameters\Default Work Unit\DynamicEnemyAmountVolume" GUID="{0A02C79E-164F-4934-88F5-8D80805F0FB8}"/>
+				<GameParameter Id="1789676941" Name="MusicMuffle" ObjectPath="\Game Parameters\Default Work Unit\MusicMuffle" GUID="{89A1870C-D397-4A0B-AFC5-BE524A06B849}"/>
+				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Default Work Unit\MusicVolume" GUID="{BEEF7FC8-87EB-4AA6-B809-8CB2D7FBA2EB}"/>
+				<GameParameter Id="2676555662" Name="HasBeenDamaged" ObjectPath="\Game Parameters\Default Work Unit\HasBeenDamaged" GUID="{5D690D85-3DE9-43CB-9D2B-811EDC8BFE38}"/>
+				<GameParameter Id="3237550251" Name="CameraDirection" ObjectPath="\Game Parameters\Default Work Unit\CameraDirection" GUID="{C1CC14D2-C77C-4899-B2B7-CFFC6A779A05}"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="3060884600" Name="PlayerChasedStateGroup" ObjectPath="\States\Default Work Unit\PlayerChasedStateGroup" GUID="{EE672E92-347B-4545-8120-1C668D97E78D}">
+					<States>
+						<State Id="493461511" Name="Chased" ObjectPath="\States\Default Work Unit\PlayerChasedStateGroup\Chased" GUID="{F27B355F-CFC9-4BA7-8C85-D4B70DE44E5C}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\PlayerChasedStateGroup\None" GUID="{A5447658-B540-4BC5-B1E4-59D200CF4E42}"/>
+						<State Id="938058686" Name="Safe" ObjectPath="\States\Default Work Unit\PlayerChasedStateGroup\Safe" GUID="{F90595E5-53B8-40C0-AF23-51CB4F9132C4}"/>
+						<State Id="3621873013" Name="Hidden" ObjectPath="\States\Default Work Unit\PlayerChasedStateGroup\Hidden" GUID="{29A4E8D1-97D7-4D2F-B42B-A5E175D58A35}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="2048498592" Name="BulletImpactSwitchGroup" ObjectPath="\Switches\Default Work Unit\BulletImpactSwitchGroup" GUID="{9A41939D-D05B-43DC-9639-30138F889E2E}">
+					<Switches>
+						<Switch Id="1791853674" Name="ActorImpact" ObjectPath="\Switches\Default Work Unit\BulletImpactSwitchGroup\ActorImpact" GUID="{7CD2D981-CCA7-499B-A96C-DBB91EBF70A2}"/>
+						<Switch Id="3121599344" Name="MetalImpact" ObjectPath="\Switches\Default Work Unit\BulletImpactSwitchGroup\MetalImpact" GUID="{B00E73F9-8E0B-48E6-8410-01165B821C01}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2470013375" Name="FootstepsSwitchGroup" ObjectPath="\Switches\Default Work Unit\FootstepsSwitchGroup" GUID="{20DC6370-37A7-46DC-B665-8C8C4FF76E58}">
+					<Switches>
+						<Switch Id="1200189234" Name="WaterSwitch" ObjectPath="\Switches\Default Work Unit\FootstepsSwitchGroup\WaterSwitch" GUID="{40070A92-7E58-4F78-B6F6-0B3E57EFAB5D}"/>
+						<Switch Id="1629235638" Name="MetalSwitch" ObjectPath="\Switches\Default Work Unit\FootstepsSwitchGroup\MetalSwitch" GUID="{3BE7B528-1199-41E4-9D33-2C0B6DF53C60}"/>
+						<Switch Id="3466136041" Name="GrassSwitch" ObjectPath="\Switches\Default Work Unit\FootstepsSwitchGroup\GrassSwitch" GUID="{D3A66A90-821F-42E4-96F9-00485382B1F1}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{B97474C6-3046-6264-DA5F-D3154791BAFC}</FileHash>
+</SoundBanksInfo>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1377933095" Type="Event" GUID="{EDA2D3EF-9B78-4B3E-8607-E6835CE32334}" Language="SFX" Hash="{C2B8982B-4F78-9B17-1A92-6FE6FF2A2398}">
+			<ObjectPath>BeginChaseMusic</ObjectPath>
+			<ShortName>BeginChaseMusic</ShortName>
+			<Path>Event/BeginChaseMusic.bnk</Path>
+			<Media>
+				<File Id="8511986" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>BassEdited.wav</ShortName>
+					<Path>Media/8511986.wem</Path>
+					<CachePath>SFX/BassEdited_56CEF360.wem</CachePath>
+				</File>
+				<File Id="279993006" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>PianoEdited.wav</ShortName>
+					<Path>Media/279993006.wem</Path>
+					<CachePath>SFX/PianoEdited_56CEF360.wem</CachePath>
+				</File>
+				<File Id="342025362" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>TimbalesEdited.wav</ShortName>
+					<Path>Media/342025362.wem</Path>
+					<CachePath>SFX/TimbalesEdited_56CEF360.wem</CachePath>
+				</File>
+				<File Id="449572488" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>TheFastTrackEdited.wav</ShortName>
+					<Path>Media/449572488.wem</Path>
+					<CachePath>SFX/TheFastTrackEdited_56CEF360.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1377933095" Name="BeginChaseMusic" ObjectPath="\Events\Default Work Unit\DynamicMusic\BeginChaseMusic" GUID="{EDA2D3EF-9B78-4B3E-8607-E6835CE32334}" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3060884600" Id="493461511" GUID="{F27B355F-CFC9-4BA7-8C85-D4B70DE44E5C}"/>
+							<MediaRefs>
+								<MediaRef Id="8511986"/>
+								<MediaRef Id="279993006"/>
+								<MediaRef Id="342025362"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3060884600" Id="3621873013" GUID="{29A4E8D1-97D7-4D2F-B42B-A5E175D58A35}"/>
+							<MediaRefs>
+								<MediaRef Id="279993006"/>
+								<MediaRef Id="342025362"/>
+								<MediaRef Id="449572488"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3060884600" Id="938058686" GUID="{F90595E5-53B8-40C0-AF23-51CB4F9132C4}"/>
+							<MediaRefs>
+								<MediaRef Id="279993006"/>
+								<MediaRef Id="342025362"/>
+								<MediaRef Id="449572488"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="3060884600" Id="493461511" Name="Chased" ObjectPath="\States\Default Work Unit\PlayerChasedStateGroup\Chased" GUID="{F27B355F-CFC9-4BA7-8C85-D4B70DE44E5C}"/>
+					</ActionSetState>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="255912898" Name="DynamicEnemyAmountVolume" ObjectPath="\Game Parameters\Default Work Unit\DynamicEnemyAmountVolume" GUID="{0A02C79E-164F-4934-88F5-8D80805F0FB8}"/>
+				<GameParameter Id="1789676941" Name="MusicMuffle" ObjectPath="\Game Parameters\Default Work Unit\MusicMuffle" GUID="{89A1870C-D397-4A0B-AFC5-BE524A06B849}"/>
+				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Default Work Unit\MusicVolume" GUID="{BEEF7FC8-87EB-4AA6-B809-8CB2D7FBA2EB}"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="3060884600" Name="PlayerChasedStateGroup" ObjectPath="\States\Default Work Unit\PlayerChasedStateGroup" GUID="{EE672E92-347B-4545-8120-1C668D97E78D}">
+					<States>
+						<State Id="493461511" Name="Chased" ObjectPath="\States\Default Work Unit\PlayerChasedStateGroup\Chased" GUID="{F27B355F-CFC9-4BA7-8C85-D4B70DE44E5C}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\PlayerChasedStateGroup\None" GUID="{A5447658-B540-4BC5-B1E4-59D200CF4E42}"/>
+						<State Id="938058686" Name="Safe" ObjectPath="\States\Default Work Unit\PlayerChasedStateGroup\Safe" GUID="{F90595E5-53B8-40C0-AF23-51CB4F9132C4}"/>
+						<State Id="3621873013" Name="Hidden" ObjectPath="\States\Default Work Unit\PlayerChasedStateGroup\Hidden" GUID="{29A4E8D1-97D7-4D2F-B42B-A5E175D58A35}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{7D07DA7A-8457-2C0C-F15D-4EC29C6C60B2}</FileHash>
+</SoundBanksInfo>
