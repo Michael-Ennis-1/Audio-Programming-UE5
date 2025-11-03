@@ -83,7 +83,7 @@ bool AAudioPlayerCharacter::PredictProjectileCollision(AActor* InOtherActor, UPr
 	// Box collider will be a cube, so X/Y/Z length should be the same
 	float LinetraceLength = BulletPassbyBoxCollider->GetScaledBoxExtent().X;
 
-	// Line trace length of box collider to check if player is hit
+	// Determine projectile direction based on unit vector of current velocity
 	FVector ProjectileDirection = InProjectileMovementComponent->Velocity;
 	FVector TargetPosition = InOtherActor->GetActorLocation() + (ProjectileDirection * LinetraceLength);
 
@@ -98,6 +98,6 @@ bool AAudioPlayerCharacter::PredictProjectileCollision(AActor* InOtherActor, UPr
 		}
 	}
 
-	// Return false if actor hit is not player or no actor hit
+	// Return false if player was not hit
 	return false;
 }
